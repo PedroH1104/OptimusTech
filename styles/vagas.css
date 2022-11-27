@@ -1,0 +1,64 @@
+.vagas {
+    padding: 8em 0;
+    text-align: center;
+}
+
+.vagas__titulo {
+    font-size: 14px;
+    color: var(--vermelho);
+    font-weight: 500;
+}
+
+.vagas__titulo-secundario {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto);
+    padding: 0.8em;
+
+}
+
+.vagas__texto-primario {
+    font-size: 20px;
+    color: var(--cinza);
+}
+
+.vagas__imagem {
+    width: 80%;
+    padding: 3em;
+}
+
+/* divisão entre imagem e segunda parte */
+
+.vagas__profissao {
+    padding: 0 20vw;
+    text-align: start;      
+}
+
+.vagas__profissao-titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto);
+    padding-bottom: 0.5em;
+}
+
+.vagas__profissao-caixa {
+    padding: 3em 2em;
+}
+
+.vagas__profissao-subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+    padding-bottom: 2em;
+}
+
+.caixa__textos {
+    display: flex;    
+}
+
+.vagas__texto-secundario {
+    color: var(--cinza);
+    font-weight: 500;
+    padding-right: 2em;
+}
+

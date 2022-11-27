@@ -1,0 +1,41 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 7em; 
+}
+
+.cabecalho__esquerda {
+    display: flex;
+    align-items: center;    
+}
+
+.cabecalho__titulo {
+    margin: 0 5em 0 .5em;
+    color: var(--cinza-secundario);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.lista-menu {
+    display: flex;
+}
+
+.lista-menu__item {
+    margin: 1em;
+    font-weight: 500;
+    color: var(--cinza);
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    color: var(--cinza);
+}
+
+.lista-menu__link-cadastro {
+    color: var(--branco);
+    padding: 0.9em 1.5em;
+    background: var(--vermelho);    
+    border: 1px solid var(--vermelho);
+    border-radius: 10px;
+}

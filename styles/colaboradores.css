@@ -1,0 +1,29 @@
+.colaboradores {    
+    text-align: center;
+    padding: 0em 20vw 8em 20vw;
+
+}
+
+.colaboradores__titulo {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.colaboradores__texto {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto);
+    padding: 1em 0;   
+}
+
+.colaborador__nome {
+    font-weight: 500;
+    color: var(--preto);
+    padding: 1em 0;
+}
+
+.colaborador__texto {
+    font-size: 14px;
+    color: var(--cinza);
+}
